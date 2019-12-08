@@ -1,0 +1,36 @@
+{
+  "name": "billtracker",
+  "version": "1.0.0",
+  "description": "A web application dedicated to helping people track their bill payments",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJMMOZ/BillTracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RJMMOZ/BillTracker/issues"
+  },
+  "homepage": "https://github.com/RJMMOZ/BillTracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.7.12",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.3",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
