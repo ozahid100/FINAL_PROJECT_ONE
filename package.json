@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/RJMMOZ/BillTracker#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "moment": "^2.22.2",
     "mongodb": "^3.1.10",
     "mongoose": "^5.7.12",
